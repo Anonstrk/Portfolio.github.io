@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      @media only screen and (min-width: 320px) and (max-width: 480px) {
+         #main-container {
+      height: 15rem;
+  } 
+      }
+    </style>
+</head>
+<body>
+    <main id="main-container">
+        <nav id="navbar-container">
+          <div id="logo">
+            <img src="./imgs/logo.png" alt="logo" />
+          </div>
+          <div id="navbar-icone-mb">
+            <img id="burger" src="./ico/burger.svg" alt="burger" />
+            <img id="cross" src="./ico/cross.svg" alt="cross" />
+          </div>
+          <ul id="nav-list">
+            <a href="/index.html"><li class="nav-items">Home</li></a>
+            <a href="./project.html"><li class="nav-items">Projects</li></a>
+            <a href="./contact.html"><li class="nav-items">Contact Us</li></a>
+          </ul>
+        </nav>
+
+        <div id="contact">
+
+          <form method="post">
+        
+            <input type="text" placeholder="Name">
+            <input type="email" placeholder="abcd@gmail.com">
+            <input type="tel" placeholder="9875642345">
+            <textarea name="text-form" placeholder="connect with me" rows="10"></textarea>
+            <button type="submit">Submit</button>
+          </form>
+        
+        </div>
+      </main>
+      <footer id="footer-container">
+        <div id="social-icons">
+          <a href="#"> <img src="./ico/github.svg" alt="git" /> </a>
+          <a href="#"> <img src="./ico/linkedin.svg" alt="li" /> </a>
+          <a href="#"> <img src="./ico/twitter.svg" alt="tw" /> </a>
+          <a href="#"> <img src="./ico/instagram.svg" alt="tw" /> </a>
+        </div>
+        <div id="footer-cont">
+          <p>&copy; Copywrite Reserved By Prawal Patil</p>
+        </div>
+      </footer>
+      <div id="stickey_btn">
+        <a href="#main-container"> <img src="./ico/angle-up.svg" alt="up" /> </a>
+      </div>
+      <script src="./index.js"></script>
+</body>
+</html>

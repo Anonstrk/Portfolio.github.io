@@ -1,0 +1,207 @@
+#main-container{
+  height: 5rem;
+}
+:root{
+  --color-prime: #03142a;
+  --web-back:#182c46;
+  --web-con:#002152;
+  --card-tran-color:hwb(214deg 73% 0% / 39%);
+}
+
+#sub-nav-bar{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    background-color: var(--color-prime);
+    align-items: center;
+    width: 15rem;
+    height: 2rem;
+    border-radius: .3rem;
+
+}
+
+#sub-nav-bar a{
+  text-decoration: none;
+  
+}
+.sub-nav-items{
+  padding: 0.3rem;
+  list-style: none;
+  font-size: .7rem;
+  color: white;
+}
+
+.sub-nav-items:hover{
+  color: white;
+  
+}
+
+
+#projects{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+  width: 95%;
+  align-items: center;
+  /* height: 4rem; */
+  background-color: var(--web-back);
+
+}
+
+.web-project{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  height: 11rem;
+  background-color: var(--web-con);
+}
+
+#website{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.web-project{
+  width: 95%;
+  margin: .2rem 0rem;
+}
+
+.web-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+  /* background-color: black; */
+  height: 11rem;
+  border-right: 1px solid rgb(255, 255, 255);
+}
+
+.web-img img{
+  width: 20rem;
+}
+
+.web-cont {
+  width: 35%;
+}
+
+.web-cont p{
+  color: white;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+}
+
+
+#case-study{
+  width: 100%;
+  display: flex;
+  margin: .5rem 0rem;
+  display: none;
+}
+
+.case{
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.cases-items{
+  width: 8rem;
+  height: 9.5rem;
+  /* margin: 0rem .3rem; */
+  background-color: var(--card-tran-color);
+}
+
+.case-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3rem;
+  border-bottom: 1px solid black;
+ 
+}
+
+.case-head h1{
+  text-align: center;
+  font-size: .8rem;
+  color: black;
+}
+
+.case-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 4.7rem;
+  /* background-color: rgb(255, 145, 0); */
+  margin-bottom: 3px;
+}
+
+.case-img img{
+  width: 7rem;
+}
+
+.case-btn{
+  font-size: .6rem;
+  width: 100%;
+  height: 1.6rem;
+  border: none;
+  background-color: #002152;
+  color: white;
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  .sub-nav-items {
+    
+    font-size: 0.6rem;
+  }
+  #sub-nav-bar {
+    width: 8rem;
+    height: 1.3rem;
+  }
+     #projects{
+      width: 100%;
+     }
+     .web-project {
+      width: 100%;
+      flex-direction: column;
+    }
+    .web-img img {
+      width: 8.8rem;
+      
+  }
+.web-img{
+  border: none;
+}
+  .web-cont {
+    width: 100%;
+}
+
+.web-cont p {
+  padding: 0.3rem;
+  font-size: 0.5rem;
+}
+
+#case-study {
+  flex-direction: column;
+}
+.case {
+  width: 100%;
+}
+
+.cases-items {
+ 
+  margin: .5rem 0rem;
+}
+
+}
